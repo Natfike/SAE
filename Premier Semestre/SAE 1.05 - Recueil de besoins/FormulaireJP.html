@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="data/Formulaire.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="data/Barre.js" defer></script>
+        <title>Accueil</title>
+    </head>
+  
+    <body>
+        <!-- Barre de navigation -->
+	  <div id='navigation'>
+		  <nav class="barre_de_navigation">
+		    <div class="accueil"><a href="AccueilJP.html">ホームページ</a></div>
+			  <a href="#" class="bouton_3_barres">
+			    <span class="bar"></span>
+			    <span class="bar"></span>
+			    <span class="bar"></span>
+			  </a>
+  
+		    <div class="barre_de_navigation_liens">
+			  <ul>
+			    <li></li>
+			    <li><a href="FormulaireJP.html">形</a></li>
+                <li><div class="dropdown">
+                    <p class="dropbtn">言語
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="FormulaireFR.html">Francais</a>
+                        <a href="FormulaireEN.html">English</a>
+                        <a href="FormulaireES.html">Español</a>
+                        <a href="FormulaireFN.html">Suomalainen</a>
+                        <a href="FormulaireIT.html">Italiano</a>
+                        <a href="FormulairePT.html">Português</a>
+                        <a href="FormulaireJP.html">日本</a>
+                        <a href="FormulaireKR.html">한국인</a>
+                    </div>
+                </div></li>
+			    <li><a href="PlanningJP.html">スケジュール</a></li>
+			  </ul>
+		   </div>
+		  </nav>
+	    </div>
+
+        <div class="BoitePrincipale">
+
+            <!-- Le formulaire de base -->
+            
+            <div class="formulaire">
+            <form method="post" action="FormulaireJP.html">
+                <input class="premier" type="text" placeholder="あなたのお名前は？"  maxlength="100" name="nom"/></br>
+                <input type="text" placeholder="同行されますか？もしそうなら、何人くらいで？" size="100%" maxlength="100" name="accompagnant" /></br>
+                
+        
+                
+                <input type="text" placeholder="アレルギーはありますか？もしそうなら、どのようなものですか？" size="100%" maxlength="100" name="allegie"/></br>
+                <input type="text" placeholder="あなたはどこから来るのですか？" size="100%" maxlenght="200" name="Depart"/></br>
+                
+        
+                
+                <input type="text" placeholder="旅行の手配にお困りですか？" size="100%" maxlenght="100" name="aide"/></br>
+        
+                <label>ヘルスパスを持っていますか？</label></br>
+                    <label><input type="radio" name="pass" value="Oui"/>はい</label>
+                    <label><input type="radio" name="pass" value="Non"/>いいえ</label></br>
+                <label>フランス語は話せますか？</label></br>
+                    <label><input type="radio" name="francais" value="Oui"/>はい</label>
+                    <label><input type="radio" name="francais" value="Non"/>いいえ</label></br>
+                <label>新郎、新婦、あるいは両方のお知り合いでしょうか？</label></br>
+                    <label><input type="radio" name="connaissance" value="La mariee" />花嫁</label>
+                    <label><input type="radio" name="connaissance" value="Le marie" />新郎</label>
+                    <label><input type="radio" name="connaissance" value="Les deux" />両方</label></br>
+        
+        
+                <textarea rows="5" cols="100%" wrap="physique" name="autre" placeholder="詳細な報告はありますか？"></textarea></br>
+                <input type="submit" value="送信"/>
+            </form>
+            </div></div>
+
+        	<div class="LeBas">
+	
+                <ul>
+                    <li><a href="AProposJP.html">私たちとは</a></li>
+                    <li><a href="https://youtu.be/dQw4w9WgXcQ">プレイリスト</a></li>
+                    <li><a href="InviteJP.html">ゲスト一覧</a></li>
+                </ul>
+                </div>    
+            
+            </body>

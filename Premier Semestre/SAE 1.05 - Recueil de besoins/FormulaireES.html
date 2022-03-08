@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="data/Formulaire.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="data/Barre.js" defer></script>
+        <title>Form</title>
+    </head>
+  
+
+<body>
+    <!-- Barre de navigation -->
+  <div id='navigation'>
+      <nav class="barre_de_navigation">
+        <div class="accueil"><a href="AccueilES.html">Initio</a></div>
+          <a href="#" class="bouton_3_barres">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+
+        <div class="barre_de_navigation_liens">
+          <ul>
+            <li></li>
+            <li><a href="FormulaireES.html">Formulario</a></li>
+            <li><div class="dropdown">
+                <p class="dropbtn">Idioma
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="FormulaireFR.html">Francais</a>
+                    <a href="FormulaireEN.html">English</a>
+                    <a href="FormulaireES.html">Español</a>
+                    <a href="FormulaireFN.html">Suomalainen</a>
+                    <a href="FormulaireIT.html">Italiano</a>
+                    <a href="FormulairePT.html">Português</a>
+                    <a href="FormulaireJP.html">日本</a>
+                    <a href="FormulaireKR.html">한국인</a>
+                </div>
+            </div></li>
+            <li><a href="PlanningES.html">planificación</a></li>
+          </ul>
+       </div>
+      </nav>
+    </div>
+
+
+    <div class="BoitePrincipale">
+
+        <!-- Le formulaire de base -->
+        
+        <div class="formulaire">
+        <form method="post" action="FormulaireES.html">
+            <input class="premier" type="text" placeholder="¿Cómo te llamas?"  maxlength="100" name="nom"/></br>
+            <input type="text" placeholder="¿Estarías acompañada? Si es así, ¿por cuántas personas?" size="100%" maxlength="100" name="accompagnant" /></br>
+            
+    
+            
+            <input type="text" placeholder="¿Tiene usted alguna alergia? Si es así, ¿cuáles?" size="100%" maxlength="100" name="allegie"/></br>
+            <input type="text" placeholder="¿De dónde vendrá?" size="100%" maxlenght="200" name="Depart"/></br>
+            
+    
+            
+            <input type="text" placeholder="¿Necesita ayuda para organizar su viaje?" size="100%" maxlenght="100" name="aide"/></br>
+    
+            <label>¿Tiene una tarjeta sanitaria?</label></br>
+                <label><input type="radio" name="pass" value="Oui"/>Sí</label>
+                <label><input type="radio" name="pass" value="Non"/>No</label></br>
+            <label>¿Hablas francés?</label></br>
+                <label><input type="radio" name="francais" value="Oui"/>Sí</label>
+                <label><input type="radio" name="francais" value="Non"/>No</label></br>
+            <label>¿Es usted un conocido de la novia, del novio o de ambos?</label></br>
+                <label><input type="radio" name="connaissance" value="La mariee" />La novia</label>
+                <label><input type="radio" name="connaissance" value="Le marie" />Del novio</label>
+                <label><input type="radio" name="connaissance" value="Les deux" />De ambos</label></br>
+    
+    
+            <textarea rows="5" cols="100%" wrap="physique" name="autre" placeholder="¿Tiene algún detalle que informar?"></textarea></br>
+            <input type="submit" value="Enviar"/>
+        </form>
+        </div></div>
+
+
+        <div class="LeBas">
+	
+            <ul>
+                <li><a href="AProposES.html">Quiénes somos</a></li>
+                <li><a href="https://youtu.be/dQw4w9WgXcQ">Playlist</a></li>
+                <li><a href="InviteES.html">Lista de invitados</a></li>
+            </ul>
+            </div>    
+        
+        </body>

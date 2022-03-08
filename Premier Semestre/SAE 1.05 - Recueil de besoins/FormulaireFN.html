@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="data/Formulaire.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="data/Barre.js" defer></script>
+        <title>Kotisivu</title>
+    </head>
+  
+    <body>
+        <!-- Barre de navigation -->
+	  <div id='navigation'>
+		  <nav class="barre_de_navigation">
+		    <div class="accueil"><a href="AccueilFN.html">Kotisivu</a></div>
+			  <a href="#" class="bouton_3_barres">
+			    <span class="bar"></span>
+			    <span class="bar"></span>
+			    <span class="bar"></span>
+			  </a>
+  
+		    <div class="barre_de_navigation_liens">
+			  <ul>
+			    <li></li>
+			    <li><a href="FormulaireFN.html">Lomake</a></li>
+                <li><div class="dropdown">
+                    <p class="dropbtn">Kieli
+                        <i class="fa fa-caret-down"></i>
+                    </p>
+                    <div class="dropdown-content">
+                        <a href="FormulaireFR.html">Francais</a>
+                        <a href="FormulaireEN.html">English</a>
+                        <a href="FormulaireES.html">Español</a>
+                        <a href="FormulaireFN.html">Suomalainen</a>
+                        <a href="FormulaireIT.html">Italiano</a>
+                        <a href="FormulairePT.html">Português</a>
+                        <a href="FormulaireJP.html">日本</a>
+                        <a href="FormulaireKR.html">한국인</a>
+                    </div>
+                </div></li>
+			    <li><a href="PlanningFN.html">Ajoittaa</a></li>
+			  </ul>
+		   </div>
+		  </nav>
+	    </div>
+
+
+        <div class="BoitePrincipale">
+
+            <!-- Le formulaire de base -->
+            
+            <div class="formulaire">
+            <form method="post" action="FormulaireFN.html">
+                <input class="premier" type="text" placeholder="Mikä on nimesi?"  maxlength="100" name="nom"/></br>
+                <input type="text" placeholder="Olisitko mukana? Jos on, niin kuinka moni henkilö?" size="100%" maxlength="100" name="accompagnant" /></br>
+                
+        
+                
+                <input type="text" placeholder="Onko sinulla allergioita? Jos on, niin mitkä niistä?" size="100%" maxlength="100" name="allegie"/></br>
+                <input type="text" placeholder="Mistä sinä tulet?" size="100%" maxlenght="200" name="Depart"/></br>
+                
+        
+                
+                <input type="text" placeholder="Tarvitsetko apua matkan järjestämisessä?" size="100%" maxlenght="100" name="aide"/></br>
+        
+                <label>Onko sinulla sairauskortti?</label></br>
+                    <label><input type="radio" name="pass" value="Oui"/>Kyllä</label>
+                    <label><input type="radio" name="pass" value="Non"/>Ei</label></br>
+                <label>Puhutko ranskaa?</label></br>
+                    <label><input type="radio" name="francais" value="Oui"/>Kyllä</label>
+                    <label><input type="radio" name="francais" value="Non"/>Ei</label></br>
+                <label>Oletko morsiamen, sulhasen vai molempien tuttu?</label></br>
+                    <label><input type="radio" name="connaissance" value="La mariee" />Morsian</label>
+                    <label><input type="radio" name="connaissance" value="Le marie" />Sulhanen</label>
+                    <label><input type="radio" name="connaissance" value="Les deux" />Molemmat</label></br>
+        
+        
+                <textarea rows="5" cols="100%" wrap="physique" name="autre" placeholder="Onko teillä mitään yksityiskohtia kerrottavana?"></textarea></br>
+                <input type="submit" value="Lähetä"/>
+            </form>
+            </div></div>
+
+            <div class="LeBas">
+	
+                <ul>
+                    <li><a href="AProposFN.html">Keitä me olemme</a></li>
+                    <li><a href="https://youtu.be/dQw4w9WgXcQ">Playlist</a></li>
+                    <li><a href="InviteFN.html">Lista vieraista</a></li>
+                </ul>
+                </div>    
+            
+            </body>

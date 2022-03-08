@@ -1,0 +1,113 @@
+body{
+	margin:0 0;
+	background-color: #f8edeb;
+}
+
+/* Besoin de faire la boite texte aligné en hauteur avec genre flexbox quand t'auras de la co*/
+
+/* barre de navigation */
+.barre_de_navigation{display:flex; position:sticky; justify-content:space-between; align-items:center; background-color:#e0c3fc; color:white; filter: drop-shadow(0 0 0.75rem black);}
+.fixNavigation{z-index:50; position:sticky; top:0;}
+
+.accueil {margin:.75rem;}
+.accueil a{color: #404040; text-decoration: none;}
+
+.barre_de_navigation_liens{height: 100%;}
+.barre_de_navigation_liens ul{display:flex; list-style:none; margin:0; padding:0;}
+.barre_de_navigation_liens li a{display: block; text-decoration:none; color:#404040; padding:1rem;}
+.barre_de_navigation_liens li:hover{background-color: #ce99ff;}
+
+.bouton_3_barres{position:absolute; top:.75rem; right:1rem; display:none; flex-direction:column; justify-content:space-between; width:30px; height:20px;}
+.bouton_3_barres .bar{height:3px; width:100%; background-color:white; border-radius:10px;}
+/*Dropdown langue*/
+.dropdown{align-items: center;overflow:hidden;}
+.dropdown .dropbtn{cursor: pointer;border: none;outline:none;color:#404040;padding:14px 16px; background-color: inherit; font-family: inherit; margin:0;}
+.dropdown-content{display:none;position:absolute;background-color: #e0c3fc;min-width: 160px; box-shadow: 0px 8px 16px 0px;z-index: 1;}
+.dropdown-content a{float:none;color:#404040;padding: 12px 16px;text-decoration: none;display:block;text-align: left;}
+.dropdown:hover .dropdown-content{display:block;}
+.dropdown:hover a:hover{background-color: #ce99ff;}
+@media (max-width: 600px){
+  .barre_de_navigation{flex-direction:column; align-items:flex-start;}
+  .bouton_3_barres{display:flex;}
+  .barre_de_navigation_liens{display:none; width:100%;  }
+  .barre_de_navigation_liens ul{width:100%; flex-direction:column;}
+  .barre_de_navigation_liens ul li{text-align:center;}
+  .barre_de_navigation_liens ul li a{padding:.5rem 1rem;}
+  .barre_de_navigation_liens.active{display:flex;}
+}
+
+/* La boite habituelle */
+div.BoitePrincipale {
+	padding:20px 0 0 0; 
+	margin-top:px;
+	height:auto;
+    width: 100%;  
+    display:block;
+}
+
+div.Texte{	
+    margin: 10px 0% 100px 2%;
+    background-color: #fffffc;
+    text-align: center;
+    width: 60%;
+    border-radius: 10px;
+	height : 800px;
+    font-size: 25px;
+    padding-top: 2.5px;
+    color: #404040;
+    border: 1px solid #404040;
+    float:left;
+}
+
+
+div.map iframe{border-radius: 30px; margin: 10px 2% 50px 0; width: 35%; border: 1px solid #404040; height: 800px; float: right;}
+@media screen and (max-width: 800px) {
+	div.Texte{width: 95%; margin: 0 2.5% 10px 2.5%;}
+	div.map iframe{width: 95%; margin: 0 2.5% 100px 2.5%; padding: 10px 0;}
+}
+/* Truc du dessous */
+
+div.LeBas{
+	background-color: #EEEEEE;
+	margin-top: 5px;
+}
+
+
+div.LeBas ul {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #EEEEEE;
+	filter: drop-shadow(0px 1px 3px);
+}
+
+div.LeBas li {
+	display: inline-block;
+	border-right: 0.5px solid #BBBBBB;
+	border-left: 0.5px solid #BBBBBB;
+
+}
+
+div.LeBas li:first-child{
+	border-left: 1px solid #BBBBBB;
+}
+
+div.LeBas li a {
+	display: block;
+	padding: 14px 16px;
+	color: #000000;
+	text-align: center;
+	text-decoration: none;	
+}
+
+div.LeBas li a:hover{
+	background-color: #DDDDDD;
+}
+
+
+

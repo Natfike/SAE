@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="data/Formulaire.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="data/Barre.js" defer></script>
+        <title>accoglienza</title>
+    </head>
+  
+    <body>
+        <!-- Barre de navigation -->
+	  <div id='navigation'>
+		  <nav class="barre_de_navigation">
+		    <div class="accueil"><a href="AccueilIT.html">accoglienza</a></div>
+			  <a href="#" class="bouton_3_barres">
+			    <span class="bar"></span>
+			    <span class="bar"></span>
+			    <span class="bar"></span>
+			  </a>
+  
+		    <div class="barre_de_navigation_liens">
+			  <ul>
+			    <li></li>
+			    <li><a href="FormulaireIT.html">Modulo</a></li>
+                <li><div class="dropdown">
+                    <p class="dropbtn">Lingua
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="FormulaireFR.html">Francais</a>
+                        <a href="FormulaireEN.html">English</a>
+                        <a href="FormulaireES.html">Español</a>
+                        <a href="FormulaireFN.html">Suomalainen</a>
+                        <a href="FormulaireIT.html">Italiano</a>
+                        <a href="FormulairePT.html">Português</a>
+                        <a href="FormulaireJP.html">日本</a>
+                        <a href="FormulaireKR.html">한국인</a>
+                    </div>
+                </div></li>
+			    <li><a href="PlanningFR.html">Programma</a></li>
+			  </ul>
+		   </div>
+		  </nav>
+	    </div>
+
+        <div class="BoitePrincipale">
+
+            <!-- Le formulaire de base -->
+            
+            <div class="formulaire">
+            <form method="post" action="FormulaireIT.html">
+                <input class="premier" type="text" placeholder="Come ti chiami?"  maxlength="100" name="nom"/></br>
+                <input type="text" placeholder="Vi fareste accompagnare? Se sì, da quante persone?" size="100%" maxlength="100" name="accompagnant" /></br>
+                
+        
+                
+                <input type="text" placeholder="Ha delle allergie? Se sì, quali?" size="100%" maxlength="100" name="allegie"/></br>
+                <input type="text" placeholder="Da dove verrete?" size="100%" maxlenght="200" name="Depart"/></br>
+                
+        
+                
+                <input type="text" placeholder="Hai bisogno di aiuto per organizzare il tuo viaggio?" size="100%" maxlenght="100" name="aide"/></br>
+        
+                <label>Ha una tessera sanitaria?</label></br>
+                    <label><input type="radio" name="pass" value="Oui"/>Sì</label>
+                    <label><input type="radio" name="pass" value="Non"/>No</label></br>
+                <label>Parla francese?</label></br>
+                    <label><input type="radio" name="francais" value="Oui"/>Sì</label>
+                    <label><input type="radio" name="francais" value="Non"/>No</label></br>
+                <label>Sei un conoscente della sposa, dello sposo o di entrambi?</label></br>
+                    <label><input type="radio" name="connaissance" value="La mariee" />Della sposa</label>
+                    <label><input type="radio" name="connaissance" value="Le marie" />Dello sposo</label>
+                    <label><input type="radio" name="connaissance" value="Les deux" />Di entrambi</label></br>
+        
+        
+                <textarea rows="5" cols="100%" wrap="physique" name="autre" placeholder="Ha qualche dettaglio da riferire?"></textarea></br>
+                <input type="submit" value="Invia"/>
+            </form>
+            </div></div>
+
+        <!--Le fameux a propos-->
+        <div class="BoitePrincipale">
+            <div class="Texte">
+                <ul class="propos">
+                    <li><img src="data/Kevin.jpg" alt="Kevin" class="photo"></li>
+                    <li><strong>Kevin Leroy-Dunan</strong></li>
+                    <li>21 anni</li>
+                    <li>nato a  Auberviliers, île-de-France</li>
+                    <li>Vive en Paul Bert, Auberviliers, île-de-France</li>
+                    <li>Batterista in una band Goth Metal / Apprendista macellaio</li>
+                    <li>Sono un batterista in una band Goth Metal che è un po' conosciuta nella scena, come gli AB+, ma bene, sono anche un apprendista di lato. Lavoro nel settore della vendita al dettaglio, assumono molto presto, il che mi lascia molto tempo la sera per la musica. Con COVID, abbiamo avuto un po' di crollo sulla scena, ma abbiamo il nostro canale che va ancora forte.</li>
+                </ul>
+                <ul class="propos">
+                    <li><img src="data/Gwen.jpg" alt="Gwen" class="photo"></li>
+                    <li><strong>Gwen Taylor</strong></li>
+                    <li>23 anni</li>
+                    <li>nato a Honolulu, HI, USA</li>
+                    <li>Vive en Tocqueville, Paris, île-de-France</li>
+                    <li>Ballerina</li>
+                    <li>Ciao, sono Gwen. Attualmente sono nella compagnia dell'Opera di Parigi come ballerino principale, e sarò il protagonista nella prossima serie di rappresentazioni di Lohengrin. Sono estremamente felice di vivere a Parigi, ma tra due anni vorrei trasferirmi a Milano, quindi il matrimonio è ora o mai più!</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="LeBas">
+	
+            <ul>
+                <li><a href="AProposIT.html">Chi siamo noi</a></li>
+                <li><a href="https://youtu.be/dQw4w9WgXcQ">Playlist</a></li>
+                <li><a href="InviteIT.html">Elenco degli ospiti</a></li>
+            </ul>
+            </div>    
+        
+        </body>
